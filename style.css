@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.background{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background-image: url(./Imagens/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(20px);
+  opacity: .4;
+}
+
+.topnav {
+    background-color: rgb(53, 52, 56);
+    overflow: hidden;
+  }
+  
+  #spanOpen {
+    cursor: pointer;
+    font-size: 6px;
+    color: #000000;
+  }
+  
+  #bi {
+    color: #f1f1f1;
+    font-size: 30px;
+    width: 20px;
+  }
+
+  .img{
+    width: 40px;
+    
+    -webkit-box-shadow: 11px -15px 21px 0px rgba(0,0,0,0.71);
+-moz-box-shadow: 11px -15px 21px 0px rgba(0,0,0,0.71);
+box-shadow: 11px -15px 21px 0px rgba(0,0,0,0.71);
+  }
+
+  .igm{
+    width: 30px;
+  }
+
+  .tag{
+    color: #f1f1f1;
+  }
+
+  .df{
+    width: 250px;
+    position: absolute;
+    right: 0;
+    top: 10rem;
+  }
+
+  body{
+    background-color: black;
+  }
+
+  
